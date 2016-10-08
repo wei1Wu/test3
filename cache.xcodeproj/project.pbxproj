@@ -7,18 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		292BC8A41DA93BC000C97C80 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 292BC8A31DA93BC000C97C80 /* AppDelegate.m */; };
 		292BC8A71DA93BC000C97C80 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 292BC8A61DA93BC000C97C80 /* main.m */; };
-		292BC8A91DA93BC000C97C80 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 292BC8A81DA93BC000C97C80 /* Assets.xcassets */; };
 		292BC8AC1DA93BC000C97C80 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 292BC8AA1DA93BC000C97C80 /* MainMenu.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		292BC89F1DA93BC000C97C80 /* cache.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = cache.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		292BC8A21DA93BC000C97C80 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		292BC8A31DA93BC000C97C80 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		292BC8A61DA93BC000C97C80 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		292BC8A81DA93BC000C97C80 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		292BC8AB1DA93BC000C97C80 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
 		292BC8AD1DA93BC000C97C80 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -53,9 +48,6 @@
 		292BC8A11DA93BC000C97C80 /* cache */ = {
 			isa = PBXGroup;
 			children = (
-				292BC8A21DA93BC000C97C80 /* AppDelegate.h */,
-				292BC8A31DA93BC000C97C80 /* AppDelegate.m */,
-				292BC8A81DA93BC000C97C80 /* Assets.xcassets */,
 				292BC8AA1DA93BC000C97C80 /* MainMenu.xib */,
 				292BC8AD1DA93BC000C97C80 /* Info.plist */,
 				292BC8A51DA93BC000C97C80 /* Supporting Files */,
@@ -128,7 +120,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				292BC8A91DA93BC000C97C80 /* Assets.xcassets in Resources */,
 				292BC8AC1DA93BC000C97C80 /* MainMenu.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -141,7 +132,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				292BC8A71DA93BC000C97C80 /* main.m in Sources */,
-				292BC8A41DA93BC000C97C80 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -243,7 +233,6 @@
 		292BC8B11DA93BC000C97C80 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				COMBINE_HIDPI_IMAGES = YES;
 				INFOPLIST_FILE = cache/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
@@ -255,7 +244,6 @@
 		292BC8B21DA93BC000C97C80 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				COMBINE_HIDPI_IMAGES = YES;
 				INFOPLIST_FILE = cache/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
@@ -283,6 +271,7 @@
 				292BC8B21DA93BC000C97C80 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
